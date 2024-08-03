@@ -32,7 +32,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(231deg, rgba(22, 6, 40, 1) 0%, rgba(52, 28, 79, 1) 50%, rgba(88, 7, 125, 1) 100%);
+    /* background: linear-gradient(231deg, rgba(22, 6, 40, 1) 0%, rgba(52, 28, 79, 1) 50%, rgba(88, 7, 125, 1) 100%); */
+    /* background: rgb(6,2,3);
+background: linear-gradient(0deg, rgba(6,2,3,1) 0%, rgba(192,102,137,1) 22%, rgba(81,53,91,1) 100%); */
+background: rgb(6,2,3);
+background: linear-gradient(0deg, rgba(6,2,3,1) 0%, rgba(157,74,106,1) 46%, rgba(81,53,91,1) 97%);
 }
 
 .container {
@@ -153,6 +157,7 @@ h1 {
     font-size: 1.25rem;
   }
 
+
 .check {
     display: flex;
     align-items: center;
@@ -164,7 +169,7 @@ h1 {
     appearance: none;
     width: 20px;
     height: 20px;
-    border: 1px solid var(--vb-cyan);
+    border: 1px solid var(--vb-yellow);
     cursor: pointer;
     position: relative;
     border-radius: 0.35rem;
@@ -172,7 +177,7 @@ h1 {
 
 
 .check input:checked{
-    background-color: var(--vb-cyan);
+    background-color: var(--vb-yellow);
 }
 
 
@@ -180,7 +185,7 @@ h1 {
     content: '✔';
     position: absolute;
     color: var(--dk-text);
-    font-size:1.05rem;
+    font-size: 0.80rem;
     font-weight: 600;
     left:50%;
     top:-3.5px;
@@ -201,7 +206,7 @@ h1 {
 
 .tooltip {
     position: absolute;
-    background-color: var(--vb-violet2);
+    background-color: var(--vb-violet);
     color: var(--vb-yellow);
     font-size: 1.25rem;
     top: -35px;

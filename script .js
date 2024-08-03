@@ -81,7 +81,7 @@ function calcStrength() {
 async function copyContent() {
     try {
         await navigator.clipboard.writeText(passwordDisplay.value);
-        copyMsg.innerText = "Copied Success";
+        copyMsg.innerText = "Copied";
         
         // 3 seconds ke baad message ko chhupane ke liye
         setTimeout(() => {
